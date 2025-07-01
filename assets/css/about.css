@@ -3,11 +3,11 @@
     padding: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-.main-container {
+.main-container-about {
 margin: 0 auto;
 max-width: 960px;
 height: 689px;
-padding-bottom: 20px; ;
+padding-bottom: 20px;
 justify-content: center;
 align-items: flex-start;
 align-self: stretch;
