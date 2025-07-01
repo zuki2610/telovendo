@@ -100,13 +100,36 @@ body {
   overflow: hidden;
 }
 
+.hero-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.32) 100%
+  );
+  pointer-events: none; /* No bloquea el clic al botón */
+  z-index: 1;
+}
+
 .hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
+  position: relative;
+  z-index: 0;
 }
 
+.hero-title,
+.hero-subtitle,
+.hero-button {
+  z-index: 2;
+}
 .hero-title {
   position: absolute;
   top: 289px;
