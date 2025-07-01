@@ -25,14 +25,15 @@ Puedes ver el código y los archivos del proyecto en el siguiente repositorio de
 ## 🖼️ Diseño Original en Figma
 
 El diseño que replicamos contiene cuatro páginas, mostradas a continuación en orden:
+
 ![image](https://github.com/user-attachments/assets/a907b7bb-9cfb-4ce1-bf1a-b30eb8e77275)
-1. Home
+
 ![image](https://github.com/user-attachments/assets/4b55757a-3696-44ec-aa25-86bcb2c7cd9c)
-2. Catalog
+
 ![image](https://github.com/user-attachments/assets/bdca7bd1-74cc-44cb-ad65-b835c09354f6)
-3. Detail
+
 ![image](https://github.com/user-attachments/assets/49b7a3f4-554d-4407-b57d-cf04dc369c9c)
-5. About Us
+
 
 ## 👨‍💻 Autores
 
