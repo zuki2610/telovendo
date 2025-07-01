@@ -2,3 +2,135 @@
     margin: 0;
     padding: 0;
 }
+.navbar-container {
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid #E5E8EB;
+    padding: 12px 40px;
+}
+.navbar-left {
+    width: 447px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 8.5px;
+}
+.navbar-left-logo {
+    width: 132px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.navbar-left-pages {
+    width: 283px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.logo{
+    width: 16px;
+    height: 16px;
+    fill: #171212;
+    flex: 1 0 0;
+}
+.brand{
+    align-self: stretch;
+    color: #171212;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #171212;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.navbar-right{
+    width: 753px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.lupa{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px 8px 8px 8px;
+    background: #F5F0F0;
+}
+
+.caja-lupa {
+    height: 24px;
+    max-width: 24px;
+    flex: 1 0 0;
+}
+
+.lupa-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill:#876363;
+}
+
+.lupa-text {
+    display: flex;
+    padding: 8px 0px 8px 8px;
+    align-items: center; 
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #876363;
+}
+
+.caja-carrito {
+    display: flex;
+    height: 40px;
+    max-width: 480px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #F3F4F3;
+    border-radius: 8px;
+}
+
+.carrito-icon {
+    width: 20px;
+    height: 20px;
+    fill: #171212;
+}
+
+.caja-user {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background:url(media/user.png);
+}
