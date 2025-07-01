@@ -38,7 +38,14 @@
   fill: #171212;
   flex: 1 0 0;
 }
+.brand a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
 .brand {
+  all: unset;
+  text-decoration: none;
   align-self: stretch;
   color: #171212;
   font-feature-settings: "dlig" on;
@@ -47,6 +54,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 23px;
+  
 }
 .navbar-links {
   list-style: none;
@@ -352,7 +360,7 @@ body {
   align-items: flex-start;
 }
 
-.product-image {
+.product-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
