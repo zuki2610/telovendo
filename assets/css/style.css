@@ -727,13 +727,14 @@ p {
 .product-image-container {
   display: flex;
   padding: 16px;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;     
 }
 
 .product-image {
   width: 100%;
   height: 619px;
-  object-fit: cover;
+  object-fit: cover; 
   border-radius: 8px;
 }
 
@@ -745,21 +746,17 @@ p {
   padding: 0 16px;
   justify-content: center;
   align-items: center;
-
   border: none;
   border-radius: 8px;
   background: #E82933;
-
   color: #FFF;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
   text-align: center;
-
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
   cursor: pointer;
 }
 
