@@ -5,45 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/about.css">
      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>  
-            <nav class="navbar-container">
-            <div class="navbar-left">
-                <div class="navbar-left-logo">
-                    <a href="./home.html"><img src="/assets/css/media/logo.svg" alt="logo-telovendo" class="logo"></a>
-                    <span class="brand"><a href="./home.html">Te lo Vendo</a></span>
-                </div>
-                <div class="navbar-left-pages">
-                    <ul class="navbar-links">
-                        <li><a href="./home.html">Home</a></li>
-                        <li><a href="./catalog.html">Shop</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="./detail.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="navbar-right">
-                <div class="lupa">
-                    <div class="caja-lupa">
-                    <img src="/assets/css/media/lupa.svg" alt="lupa" class="lupa-icon">
-                    </div>
-                    <span class="lupa-text">Search</span>
-                </div>
-                <div class="caja-carrito">
-                    <img src="/assets/css/media/carrito.svg" alt="carrito" class="carrito-icon">
-                </div>
-                <div class="caja-user">
-                    <img src="" alt="" class="user-icon">
-                </div>
-            </div>
-        </nav>
-    <main class="main-container-about">
-        <section class="about-container">
-            <h1 class="about-title">About Us</h1>
-            <p class="about-description">
+            <nav class="navbar">
+    <div class="navbar__left">
+      <div class="navbar__logo-group">
+        <a href="#"><img src="/assets/css/media/logo.svg" alt="logo-telovendo" class="navbar__logo-icon"></a>
+        <span class="navbar__brand"><a href="#">Te lo Vendo</a></span>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+          <li class="navbar__item"><a href="./catalog.html" class="navbar__link">Shop</a></li>
+          <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
+          <li class="navbar__item"><a href="./detail.html" class="navbar__link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar__right">
+      <div class="navbar__search">
+        <div class="navbar__search-icon-box">
+          <img src="/assets/css/media/lupa.svg" alt="lupa" class="navbar__search-icon">
+        </div>
+        <span class="navbar__search-text">Search</span>
+      </div>
+      <div class="navbar__cart">
+        <img src="/assets/css/media/carrito.svg" alt="carrito" class="navbar__cart-icon">
+      </div>
+      <div class="navbar__user">
+        <img src="../assets/css/media/user.png" alt="" class="navbar__user-avatar">
+      </div>
+    </div>
+  </nav>
+    <main class="main__container__about">
+        <section class="about__container">
+            <h1 class="about__title">About Us</h1>
+            <p class="about__description">
             At Te lo Vendo, we're passionate about connecting buyers and sellers in a seamless
             online marketplace. Our mission is to provide a platform where individuals can discover
             unique products, support independent creators, and build thriving businesses. We believe
@@ -51,30 +51,30 @@
             is a step towards realizing dreams.
             </p>
         </section>
-        <section class="ourteam-container">
-            <h2 class="ourteam-title">Our Team</h2>
+        <section class="about__ourteam__container">
+            <h2 class="about__ourteam__title">Our Team</h2>
         </section>
-        <section class="gallery-container">
-            <div class="gallery-images">
-                <div class="gallery-item">
-                <img src="/assets/img/team1.png" alt="Gallery Image 1" class="gallery-image">
-                <span class="team-names">Elena Rodriguez</span>
-                <span class="team-role">CEO & Founder</span>
+        <section class="about__gallery__container">
+            <div class="about__gallery__images">
+                <div class="about__gallery__item">
+                <img src="/assets/img/team1.png" alt="Gallery Image 1" class="about__gallery__image">
+                <span class="about__team__names">Elena Rodriguez</span>
+                <span class="about__team__role">CEO & Founder</span>
                 </div>
-                <div class="gallery-item">
-                <img src="/assets/img/team2.png" alt="Gallery Image 2" class="gallery-image">
-                <span class="team-names">Carlos Ramirez</span>
-                <span class="team-role">Head of Product</span>
+                <div class="about__gallery__item">
+                <img src="/assets/img/team2.png" alt="Gallery Image 2" class="about__gallery__image">
+                <span class="about__team__names">Carlos Ramirez</span>
+                <span class="about__team__role">Head of Product</span>
                 </div>
-                <div class="gallery-item">
-                <img src="/assets/img/team3.png" alt="Gallery Image 3" class="gallery-image">
-                <span class="team-names">Sofia Vargas</span>
-                <span class="team-role">Marketing Director</span>
+                <div class="about__gallery__item">
+                <img src="/assets/img/team3.png" alt="Gallery Image 3" class="about__gallery__image">
+                <span class="about__team__names">Sofia Vargas</span>
+                <span class="about__team__role">Marketing Director</span>
                 </div>
             </div>
         </section>
-        <section class="team-resume-container">
-            <p class="team-resume-description">
+        <section class="about__team__resume__container">
+            <p class="about__team__resume__description">
             Our team is composed of dedicated professionals with diverse backgrounds and a 
             shared commitment to excellence. We work tirelessly to ensure that Te lo Vendo
             remains a vibrant and user-friendly platform, constantly innovating to meet the
@@ -82,14 +82,14 @@
             is accessible, empowering, and enriching for everyone.
             </p>
         </section>
-        <footer class="site-footer">
-      <div class="footer-links">
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Contact Us</a>
-      </div>
-      <div class="footer-copy">©2024 Te lo Vendo. All rights reserved.</div>
-        </footer>
+      <footer class="footer">
+    <div class="footer__links">
+      <a href="#" class="footer__link">Terms of Service</a>
+      <a href="#" class="footer__link">Privacy Policy</a>
+      <a href="#" class="footer__link">Contact Us</a>
+    </div>
+    <div class="footer__copy">©2024 Te lo Vendo. All rights reserved.</div>
+  </footer>
     </main>
 </body>
 </html>
