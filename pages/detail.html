@@ -1,47 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product Details</title>
-  <link rel="stylesheet" href="../assets/css/detail.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-
-  
-
-  <div class="wrapper">
-
-    <main class="details">
-
-      <nav class="details__breadcrumb">
-        <span class="details__breadcrumb-shop">Shop</span> / <span class="details__breadcrumb-current">Product Details</span>
-      </nav>
-
-      <div class="details__title-container">
-        <h1 class="details__title">Wireless Noise-Canceling Headphones</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../assets/css/detail.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__left">
+        <div class="navbar__logo-group">
+          <a href="#"
+            ><img
+              src="/assets/css/media/logo.svg"
+              alt="logo-telovendo"
+              class="navbar__logo-icon"
+          /></a>
+          <span class="navbar__brand"><a href="#">Te lo Vendo</a></span>
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__links">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./catalog.html" class="navbar__link">Shop</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./about.html" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./detail.html" class="navbar__link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="details__description-container">
-        <p class="details__description">
-          Experience immersive sound with our wireless noise-canceling headphones. Perfect for travel, work, or relaxation, these headphones deliver crystal-clear audio and block out distractions.
-        </p>
+      <div class="navbar__right">
+        <div class="navbar__search">
+          <div class="navbar__search-icon-box">
+            <img
+              src="/assets/css/media/lupa.svg"
+              alt="lupa"
+              class="navbar__search-icon"
+            />
+          </div>
+          <span class="navbar__search-text">Search</span>
+        </div>
+        <div class="navbar__cart">
+          <img
+            src="/assets/css/media/carrito.svg"
+            alt="carrito"
+            class="navbar__cart-icon"
+          />
+        </div>
+        <div class="navbar__user">
+          <img
+            src="../assets/css/media/user.png"
+            alt=""
+            class="navbar__user-avatar"
+          />
+        </div>
       </div>
+    </nav>
 
-      <div class="details__image-container">
-        <img src="../assets/img/audifonos.png" alt="Wireless Noise-Canceling Headphones" class="details__image" />
-      </div>
+    <div class="wrapper">
+      <main class="details">
+        <nav class="details__breadcrumb">
+          <span class="details__breadcrumb-shop">Shop</span> /
+          <span class="details__breadcrumb-current">Product Details</span>
+        </nav>
 
-      <div class="details__add-to-cart-container">
-        <button class="details__add-to-cart">Add to Cart</button>
-      </div>
+        <div class="details__title-container">
+          <h1 class="details__title">Wireless Noise-Canceling Headphones</h1>
+        </div>
 
-    </main>
+        <div class="details__description-container">
+          <p class="details__description">
+            Experience immersive sound with our wireless noise-canceling
+            headphones. Perfect for travel, work, or relaxation, these
+            headphones deliver crystal-clear audio and block out distractions.
+          </p>
+        </div>
 
-  
+        <div class="details__image-container">
+          <img
+            src="../assets/img/audifonos.png"
+            alt="Wireless Noise-Canceling Headphones"
+            class="details__image"
+          />
+        </div>
 
-  </div>
-
-</body>
+        <div class="details__add-to-cart-container">
+          <button class="details__add-to-cart">Add to Cart</button>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__links">
+          <a href="#" class="footer__link">Terms of Service</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+          <a href="#" class="footer__link">Contact Us</a>
+        </div>
+        <div class="footer__copy">©2024 Te lo Vendo. All rights reserved.</div>
+      </footer>
+    </div>
+  </body>
 </html>
