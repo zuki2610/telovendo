@@ -4,175 +4,203 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalog</title>
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/catalog.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-     <nav class="navbar-container">
-            <div class="navbar-left">
-                <div class="navbar-left-logo">
-                    <a href="./home.html"><img src="/assets/css/media/logo.svg" alt="logo-telovendo" class="logo"></a>
-                    <span class="brand"><a href="./home.html">Te lo Vendo</a></span>
-                </div>
-                <div class="navbar-left-pages">
-                    <ul class="navbar-links">
-                        <li><a href="./home.html">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./detail.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="navbar-right">
-                <div class="lupa">
-                    <div class="caja-lupa">
-                    <img src="/assets/css/media/lupa.svg" alt="lupa" class="lupa-icon">
-                    </div>
-                    <span class="lupa-text">Search</span>
-                </div>
-                <div class="caja-carrito">
-                    <img src="/assets/css/media/carrito.svg" alt="carrito" class="carrito-icon">
-                </div>
-                <div class="caja-user">
-                    <img src="" alt="" class="user-icon">
-                </div>
-            </div>
-        </nav>
-
-    <main class="main-catalog">
-      <section class="header-catalog">
-        <div class="breadcrumbs-catalog">
-          <ul class="breadcrumbs-catalog__list">
-            <li class="breadcrumbs-catalog__item">
-              <a class="breadcrumbs-catalog__link" href="./home.html">Home</a>
+    <nav class="navbar">
+      <div class="navbar__left">
+        <div class="navbar__logo-group">
+          <a href="#"
+            ><img
+              src="/assets/css/media/logo.svg"
+              alt="logo-telovendo"
+              class="navbar__logo-icon"
+          /></a>
+          <span class="navbar__brand"><a href="#">Te lo Vendo</a></span>
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__links">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Home</a>
             </li>
-            <p>/</p>
-            <li class="breadcrumbs-catalog__item">
-              <a class="breadcrumbs-catalog__link current">Women</a>
+            <li class="navbar__item">
+              <a href="./catalog.html" class="navbar__link">Shop</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./about.html" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./detail.html" class="navbar__link">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="title-catalog">
+      </div>
+      <div class="navbar__right">
+        <div class="navbar__search">
+          <div class="navbar__search-icon-box">
+            <img
+              src="/assets/css/media/lupa.svg"
+              alt="lupa"
+              class="navbar__search-icon"
+            />
+          </div>
+          <span class="navbar__search-text">Search</span>
+        </div>
+        <div class="navbar__cart">
+          <img
+            src="/assets/css/media/carrito.svg"
+            alt="carrito"
+            class="navbar__cart-icon"
+          />
+        </div>
+        <div class="navbar__user">
+          <img
+            src="../assets/css/media/user.png"
+            alt=""
+            class="navbar__user-avatar"
+          />
+        </div>
+      </div>
+    </nav>
+    <main class="catalog">
+      <section class="catalog-header">
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="./home.html">Home</a>
+            </li>
+            <p>/</p>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link breadcrumbs__link--current">Women</a>
+            </li>
+          </ul>
+        </div>
+        <div class="catalog-header__title">
           <h1>Women's Clothing</h1>
         </div>
-        <div class="buttonGroup-catalog">
-          <button class="buttonGroup-catalog__button">Tops</button>
-          <button class="buttonGroup-catalog__button">Bottoms</button>
-          <button class="buttonGroup-catalog__button">Dresses</button>
-          <button class="buttonGroup-catalog__button">Outerwear</button>
-          <button class="buttonGroup-catalog__button">Shoes</button>
+        <div class="filter-buttons">
+          <button class="filter-buttons__button">Tops</button>
+          <button class="filter-buttons__button">Bottoms</button>
+          <button class="filter-buttons__button">Dresses</button>
+          <button class="filter-buttons__button">Outerwear</button>
+          <button class="filter-buttons__button">Shoes</button>
         </div>
       </section>
-      <section class="products-catalog">
-        <div class="title-products">
+      <section class="product-section">
+        <div class="product-section__title">
           <h2>Featured Products</h2>
         </div>
-        <div class="featured-products-cards">
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+        <div class="product-section__cards">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product1.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Elegant Summer Dress</p>
-              <p class="card-info__price">$79.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Elegant Summer Dress</p>
+              <p class="product-card__price">$79.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product2.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Casual Denim Jacket</p>
-              <p class="card-info__price">$59.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Casual Denim Jacket</p>
+              <p class="product-card__price">$59.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product3.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Comfortable Running Shoes</p>
-              <p class="card-info__price">$89.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Comfortable Running Shoes</p>
+              <p class="product-card__price">$89.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product4.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Stylish Handbag</p>
-              <p class="card-info__price">$49.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Stylish Handbag</p>
+              <p class="product-card__price">$49.99</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="products-catalog">
-        <div class="title-products">
+      <section class="product-section">
+        <div class="product-section__title">
           <h2>New Arrivals</h2>
         </div>
-        <div class="newArrivals-products-cards">
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+        <div
+          class="product-section__cards product-section__cards--new-arrivals"
+        >
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product5.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Modern Blazer</p>
-              <p class="card-info__price">$99.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Modern Blazer</p>
+              <p class="product-card__price">$99.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product6.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Chic Skirt</p>
-              <p class="card-info__price">$49.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Chic Skirt</p>
+              <p class="product-card__price">$49.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product7.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Leather Boots</p>
-              <p class="card-info__price">$129.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Leather Boots</p>
+              <p class="product-card__price">$129.99</p>
             </div>
           </div>
-          <div class="card-catalog">
-            <picture class="card-catalog__picture">
+          <div class="product-card">
+            <picture class="product-card__picture">
               <img src="../assets/img/product8.png" alt="" />
             </picture>
-            <div class="card-info">
-              <p class="card-info__title">Fashionable Scarf</p>
-              <p class="card-info__price">$29.99</p>
+            <div class="product-card__info">
+              <p class="product-card__title">Fashionable Scarf</p>
+              <p class="product-card__price">$29.99</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="buttonGroup-index-catalog">
-        <button class="buttonGroup-index">
+      <section class="pagination">
+        <button class="pagination__button">
           <img src="../assets/ico/icon-arrowLeft.svg" alt="back" />
         </button>
-        <button class="buttonGroup-index-current">1</button>
-        <button class="buttonGroup-index">2</button>
-        <button class="buttonGroup-index">3</button>
-        <button class="buttonGroup-index">4</button>
-        <button class="buttonGroup-index">
+        <button class="pagination__button pagination__button--current">
+          1
+        </button>
+        <button class="pagination__button">2</button>
+        <button class="pagination__button">3</button>
+        <button class="pagination__button">4</button>
+        <button class="pagination__button">
           <img src="../assets/ico/icon-arrowRight.svg" alt="next" />
         </button>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="footer-links">
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Contact Us</a>
+    <footer class="footer">
+      <div class="footer__links">
+        <a href="#" class="footer__link">Terms of Service</a>
+        <a href="#" class="footer__link">Privacy Policy</a>
+        <a href="#" class="footer__link">Contact Us</a>
       </div>
-      <div class="footer-copy">©2024 Te lo Vendo. All rights reserved.</div>
+      <div class="footer__copy">©2024 Te lo Vendo. All rights reserved.</div>
     </footer>
   </body>
 </html>
